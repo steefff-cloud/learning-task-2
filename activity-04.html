@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>My First colcan boy file</title>
+
+    <style type="text/css">
+        body{
+            background-color:#cccccc;
+            color:#f54927;
+            text-align:center;
+        }
+        #mypic{
+            display:none;
+            margin-top:20px;
+            width:300px;
+           image-align:center;\
+        }
+    </style>
+
+    <script>
+        function showMessage() {
+		
+            document.getElementById("mypic").style.display = "block";
+        }
+function hideMessage() {
+		
+            document.getElementById("mypic").style.display = "none";
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>My profile</h1>
+
+    <p>
+        Please click the button below <br />
+        ↓
+    </p>
+
+    <button type="button" onclick="showMessage()">
+        show
+    </button>
+	<button type="button" onclick="hideMessage()">
+        hide
+    </button>
+
+    <br><br>
+
+    <img id="mypic" src="image/pic1.png" alt="My Picture">
+
+</body>
+</html>
