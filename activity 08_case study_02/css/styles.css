@@ -1,0 +1,33 @@
+body {
+    background-color: #fffff8;
+    margin: 0;
+    font-family: serif;
+}
+
+#wrapper {
+    margin-top: 120px;
+}
+
+.main-navigation {
+    background-color: #f75435;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main-navigation a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.main-navigation a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    color: #000000;
+    font-size: 22px;
+    margin: 20px 0 0 8px;
+    text-align: left;
+    font-weight: bold;
+}
